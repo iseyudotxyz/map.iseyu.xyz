@@ -1,0 +1,54 @@
+@import url("https://assets.iseyu.xyz/fonts/fonts.css");
+
+* {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+header {
+    background-color: black;
+    width: 100%;
+    height: 5%;
+}
+hr {
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    align-self: flex-end;
+}
+#header-body {
+    width: 100%;
+    height: 63px;
+    display:flex;
+}
+#title-container {
+    align-self: center;
+    margin-left: 30px;
+}
+#title {
+    color: white;
+    font-family: "nunito";
+    font-size: 25px;
+    display:flex
+}
+#header-button {
+    height: 40px;
+    width: 250px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: 30px;
+}

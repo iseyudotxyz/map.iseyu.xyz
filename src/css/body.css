@@ -1,0 +1,20 @@
+.leaflet-container {
+    width: 100vw;
+    height: 93vh;
+}
+.popup {
+    min-width: 450px;
+    min-height: 500px;  
+}
+.popup-body-div {
+    display:flex;
+    flex-direction:column;
+}
+#player {
+    align-self: auto;
+    width: 400px;
+    height: 400px;
+}
+#name-h3 {
+    align-self: center;
+}
